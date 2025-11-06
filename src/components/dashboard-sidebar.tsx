@@ -95,12 +95,12 @@ export function DashboardSidebar() {
     >
       {/* ===== HEADER ===== */}
       <SidebarHeader className="p-4 mb-2 flex items-center justify-between h-16">
-        <Link href="/dashboard" className="flex items-center gap-2 flex-1" aria-label="Roj Sale Home">
+        <Link href="/dashboard" className="flex items-center gap-2 flex-1" aria-label="RoJSALE Home">
           <div className="bg-background rounded-lg w-10 h-10 flex items-center justify-center relative">
             <span className="text-primary font-bold text-lg">R</span>
           </div>
           <div className="flex flex-col">
-            <h1 className="font-semibold text-lg leading-tight">Roj Sale</h1>
+            <h1 className="font-semibold text-lg leading-tight">RoJSALE</h1>
           </div>
         </Link>
       </SidebarHeader>

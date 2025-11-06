@@ -15,7 +15,7 @@ const NotificationItem = ({ notification }: { notification: Notification }) => {
         switch(type) {
             case 'announcement': return 'bg-blue-100 text-blue-700';
             case 'reminder': return 'bg-sky-100 text-sky-700';
-            case 'system': return 'bg-accent text-accent-foreground';
+            case 'system': return 'bg-accent text-primary';
             case 'report': return 'bg-muted text-primary';
             default: return 'bg-muted';
         }

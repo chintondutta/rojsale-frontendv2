@@ -51,7 +51,7 @@ export default function CategoriesPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <StatCard title="Total Categories" value={totalCategories.toString()} />
         <StatCard title="Subcategories" value={totalSubcategories.toString()} />
-        <StatCard title="Total Ads" value={totalAds.toLocaleString()} titleClassName="text-secondary-foreground" />
+        <StatCard title="Total Ads" value={totalAds.toLocaleString()} titleClassName="text-primary" />
         <StatCard title="Highest Category" value={highestCategory.adCount.toLocaleString()} />
       </div>
 

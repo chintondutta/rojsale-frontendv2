@@ -85,24 +85,25 @@ export default function AdvertisementsPage() {
         />
         <UserStatCard 
             icon="Clock"
-            iconColor="text-accent-foreground"
-            iconBg="bg-accent"
+            iconColor="text-primary"
+            iconBg="bg-primary/10"
             title="Pending Approval"
             value={pendingAds.toLocaleString()}
             footer="Needs review"
-            footerColor="text-accent-foreground/80"
+            footerColor="text-primary/80"
         />
         <UserStatCard 
             icon="Flag"
-            iconColor="text-accent-foreground"
-            iconBg="bg-accent"
+            iconColor="text-primary"
+            iconBg="bg-primary/10"
             title="Flagged Ads"
             value={flaggedAds.toLocaleString()}
             footer="Action required"
-            footerBg="bg-accent"
-            footerColor="text-accent-foreground"
+            footerColor="text-primary"
+            footerBg="bg-primary/10"
         />
       </div>
     </div>
   );
 }
+

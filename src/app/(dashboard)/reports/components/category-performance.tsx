@@ -49,7 +49,6 @@ export function CategoryPerformance() {
               {revenueData.map(item => (
                   <div key={item.name} className="flex items-center justify-between p-3 rounded-lg bg-muted/50">
                       <div className="flex items-center gap-3">
-                          <span className="h-3 w-3 rounded-full" style={{backgroundColor: item.color}}></span>
                           <p className="font-medium text-sm text-primary">{item.name}</p>
                       </div>
                       <div className="text-right">

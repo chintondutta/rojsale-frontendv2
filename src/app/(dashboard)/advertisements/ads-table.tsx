@@ -42,11 +42,11 @@ const getStatusBadge = (status: Ad['status']) => {
       case 'Active':
         return <Badge variant="outline" className="bg-blue-100 text-blue-700 border-blue-200">Active</Badge>;
       case 'Pending':
-        return <Badge variant="outline" className="bg-accent text-accent-foreground border-accent-foreground/10">Pending</Badge>;
+        return <Badge variant="outline" className="bg-accent text-primary border-accent-foreground/10">Pending</Badge>;
       case 'Expired':
         return <Badge variant="outline" className="bg-sky-100 text-sky-700 border-sky-200">Expired</Badge>;
       case 'Flagged':
-        return <Badge className="bg-accent text-accent-foreground">Flagged</Badge>;
+        return <Badge className="bg-primary text-primary-foreground">Flagged</Badge>;
     }
   };
 
@@ -101,7 +101,7 @@ export const columns: ColumnDef<Ad>[] = [
         <div className="flex items-center gap-2">
             {getStatusBadge(row.getValue('status'))}
             {row.original.status === 'Flagged' && row.original.flags && (
-                <Badge className="bg-accent text-accent-foreground text-xs px-1.5 py-0.5 whitespace-nowrap">{row.original.flags} flags</Badge>
+                <Badge className="bg-primary text-primary-foreground text-xs px-1.5 py-0.5 whitespace-nowrap">{row.original.flags} flags</Badge>
             )}
         </div>
     )

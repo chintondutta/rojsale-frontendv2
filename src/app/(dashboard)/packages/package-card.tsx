@@ -61,7 +61,7 @@ export function PackageCard({ pkg }: PackageCardProps) {
             </ul>
         </div>
         
-        <div className="flex items-center gap-2 mt-6 pt-6 border-t">
+        <div className="flex flex-col items-center gap-2 mt-6 pt-6 border-t">
           <Button variant="outline" className="w-full text-primary">
             <Eye className="mr-2 h-4 w-4" />
             View Details

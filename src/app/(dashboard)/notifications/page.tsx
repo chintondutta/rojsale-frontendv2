@@ -18,7 +18,7 @@ export default function NotificationsPage() {
     return (
         <div className="space-y-6">
             <PageHeader title="Notifications Management" description="Send and manage platform notifications">
-                <Button className="bg-accent text-accent-foreground hover:bg-accent/90">
+                <Button>
                     <Plus className="mr-2 h-4 w-4" />
                     Create Notification
                 </Button>

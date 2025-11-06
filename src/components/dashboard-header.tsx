@@ -61,7 +61,7 @@ export function DashboardHeader() {
                   <AvatarImage src="https://picsum.photos/seed/avatar2/100/100" />
                   <AvatarFallback>RS</AvatarFallback>
                 </Avatar>
-                <span className="ml-2 font-semibold text-primary hidden sm:inline">Roj Sale</span>
+                <span className="ml-2 font-semibold text-primary hidden sm:inline">RoJSALE</span>
               </Button>
             </DropdownMenuTrigger>
 

@@ -6,7 +6,7 @@ import { Wallet, CreditCard, Landmark } from "lucide-react";
 
 const performanceData = [
     { name: 'UPI Payments', percentage: '45%', icon: Wallet, iconBg: 'bg-blue-100', iconColor: 'text-blue-600' },
-    { name: 'Card Payments', percentage: '30%', icon: CreditCard, iconBg: 'bg-accent', iconColor: 'text-accent-foreground' },
+    { name: 'Card Payments', percentage: '30%', icon: CreditCard, iconBg: 'bg-primary/10', iconColor: 'text-primary' },
     { name: 'Net Banking', percentage: '25%', icon: Landmark, iconBg: 'bg-sky-100', iconColor: 'text-sky-600' },
 ]
 

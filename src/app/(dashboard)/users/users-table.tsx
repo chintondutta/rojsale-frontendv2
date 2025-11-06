@@ -36,9 +36,9 @@ const getStatusBadge = (status: User['status']) => {
       case 'Active':
         return <Badge variant="outline" className="bg-blue-100 text-blue-700 border-blue-200">Active</Badge>;
       case 'Suspended':
-        return <Badge className="bg-accent text-accent-foreground">Suspended</Badge>;
+        return <Badge className="bg-accent text-primary">Suspended</Badge>;
       case 'Pending':
-        return <Badge variant="outline" className="bg-accent text-accent-foreground border-accent-foreground/10">Pending</Badge>;
+        return <Badge variant="outline" className="bg-accent text-primary border-accent-foreground/10">Pending</Badge>;
       default:
         return <Badge variant="secondary">{status}</Badge>;
     }
