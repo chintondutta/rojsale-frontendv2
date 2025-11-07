@@ -27,7 +27,7 @@ const SubcategoryRow = ({ subcategory }: { subcategory: Subcategory }) => {
     <div className="flex items-center py-3 pl-10 pr-4 hover:bg-muted/50 rounded-md">
       <Dot className="h-5 w-5 text-primary mr-2" />
       <span className="flex-1 font-medium text-sm text-primary">{subcategory.name}</span>
-      <Badge variant="outline" className="mr-4 bg-accent/20 text-accent-foreground border-accent/30">{subcategory.adCount} ads</Badge>
+      <Badge variant="outline" className="mr-4 bg-accent/20 text-primary border-accent/30">{subcategory.adCount} ads</Badge>
       <div className="flex items-center gap-2">
         <Button variant="ghost" size="icon" className="h-8 w-8">
           <Edit className="h-4 w-4" />

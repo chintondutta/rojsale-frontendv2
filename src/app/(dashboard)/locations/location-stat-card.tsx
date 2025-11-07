@@ -28,8 +28,8 @@ export function LocationStatCard({ title, value, footer, badge, badgeColor, icon
                 </div>
                 <div>
                     <p className="text-2xl font-bold text-primary">{value}</p>
-                    <p className="text-sm text-muted-foreground">{title}</p>
-                    <p className="text-xs text-muted-foreground mt-1">{footer}</p>
+                    <p className="text-sm text-primary">{title}</p>
+                    <p className="text-xs text-primary mt-1">{footer}</p>
                 </div>
             </CardContent>
         </Card>

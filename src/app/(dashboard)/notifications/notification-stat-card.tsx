@@ -27,9 +27,9 @@ export function NotificationStatCard({ title, value, footer, badge, badgeColor, 
                     <Badge className={cn("text-xs", badgeColor || 'bg-blue-600 text-white')}>{badge}</Badge>
                 </div>
                 <div>
-                    <p className="text-xs text-muted-foreground">{title}</p>
+                    <p className="text-xs text-primary">{title}</p>
                     <p className="text-2xl font-bold text-primary">{value}</p>
-                    <p className="text-xs text-muted-foreground mt-1">{footer}</p>
+                    <p className="text-xs text-primary mt-1">{footer}</p>
                 </div>
             </CardContent>
         </Card>

@@ -122,7 +122,7 @@ export const columns: ColumnDef<Ad>[] = [
     cell: () => (
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <Button variant="ghost" className="h-8 w-8 p-0">
+          <Button variant="ghost" className="h-8 w-8 p-0 text-primary">
             <span className="sr-only">Open menu</span>
             <MoreHorizontal className="h-4 w-4" />
           </Button>
@@ -131,7 +131,7 @@ export const columns: ColumnDef<Ad>[] = [
           <DropdownMenuItem>View Ad</DropdownMenuItem>
           <DropdownMenuItem>Edit Ad</DropdownMenuItem>
           <DropdownMenuItem>Approve</DropdownMenuItem>
-          <DropdownMenuItem className="text-destructive">Decline</DropdownMenuItem>
+          <DropdownMenuItem>Decline</DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
     ),

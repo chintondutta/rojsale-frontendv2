@@ -61,16 +61,16 @@ export default function UsersPage() {
         />
         <UserStatCard 
             icon="UserCheck"
-            iconColor="text-sky-500"
-            iconBg="bg-sky-100"
+            iconColor="text-primary"
+            iconBg="bg-primary/10"
             title="Active Users"
             value={activeUsers.toLocaleString()}
             footer={`${Math.round((activeUsers / totalUsers) * 100)}% active`}
         />
         <UserStatCard 
             icon="UserPen"
-            iconColor="text-primary"
-            iconBg="bg-primary/10"
+            iconColor="text-sky-500"
+            iconBg="bg-sky-100"
             title="Pending Verification"
             value={pendingUsers.toLocaleString()}
             footer="Needs review"
@@ -90,3 +90,4 @@ export default function UsersPage() {
     </div>
   );
 }
+

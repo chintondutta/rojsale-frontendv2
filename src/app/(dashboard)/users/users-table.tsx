@@ -106,7 +106,7 @@ export const columns: ColumnDef<User>[] = [
       return (
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="ghost" className="h-8 w-8 p-0">
+            <Button variant="ghost" className="h-8 w-8 p-0 text-primary">
               <span className="sr-only">Open menu</span>
               <MoreHorizontal className="h-4 w-4" />
             </Button>
@@ -115,7 +115,7 @@ export const columns: ColumnDef<User>[] = [
             <DropdownMenuItem>View details</DropdownMenuItem>
             <DropdownMenuItem>Edit user</DropdownMenuItem>
             <DropdownMenuItem>Suspend user</DropdownMenuItem>
-            <DropdownMenuItem className="text-destructive">Delete user</DropdownMenuItem>
+            <DropdownMenuItem>Delete user</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       );

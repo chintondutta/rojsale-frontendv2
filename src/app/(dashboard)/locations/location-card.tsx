@@ -36,7 +36,7 @@ export function LocationCard({ location }: LocationCardProps) {
           <Button variant="ghost" size="icon" className="h-8 w-8 text-primary hover:text-primary">
             <Edit className="h-4 w-4" />
           </Button>
-          <Button variant="ghost" size="icon" className="h-8 w-8 text-primary hover:text-destructive">
+          <Button variant="ghost" size="icon" className="h-8 w-8 text-primary hover:text-accent">
             <Trash2 className="h-4 w-4" />
           </Button>
         </div>
@@ -60,7 +60,7 @@ export function LocationCard({ location }: LocationCardProps) {
         </div>
         
         <div className="flex items-center gap-2 mt-6 pt-6 border-t">
-          <Button variant="outline" className="w-full">
+          <Button variant="outline" className="w-full text-primary">
             View Details
           </Button>
           <Button className="w-full">

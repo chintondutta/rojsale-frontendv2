@@ -37,7 +37,7 @@ export default function SecurityPage() {
           value="1,247"
           footer="This month"
           badge="Blocked"
-          badgeColor="bg-accent text-accent-foreground"
+          badgeColor="bg-accent text-primary"
         />
         <SecurityStatCard
           icon="CheckCircle"
