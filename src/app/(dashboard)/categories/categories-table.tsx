@@ -30,7 +30,7 @@ const SubcategoryRow = ({ subcategory }: { subcategory: Subcategory }) => {
       <Badge variant="outline" className="mr-4 bg-accent/20 text-primary border-accent/30">{subcategory.adCount} ads</Badge>
       <div className="flex items-center gap-2">
         <Button variant="ghost" size="icon" className="h-8 w-8">
-          <Edit className="h-4 w-4" />
+          <Edit className="h-4 w-4 text-primary" />
         </Button>
         <Button size="icon" className="h-8 w-8">
           <Trash className="h-4 w-4" />
